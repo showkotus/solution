@@ -6,7 +6,7 @@
     src: url(https://www.dafontfree.net/embed/YWFjaGVuLWJ0LXJvbWFuJmRhdGEvMjIvYS8xMDk4NDkvYWFjaGVubi50dGY);
 }
 
-* {}
+
 
 * {
 
@@ -88,30 +88,28 @@ li a:hover {
     padding: 55px 50px;
 }
 
-.banner-main .banner-img {
+.banner-img {
     width: 50%;
 }
 
-.banner-main .banner-img img {
+.banner-img img {
     width: 100%;
 }
 
-.banner-main .title-text {
+.title-text {
     width: 50%;
     padding-left: 30px;
     padding-top: 90px;
     color: white;
 }
 
-.banner-main .title-text h1 {
+.title-text h1 {
     font-size: 40pt;
     text-transform: capitalize;
     line-height: 70px;
-    font-family: "Aachen BT";
-    src: url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.eot");
 }
 
-.banner-main .title-text p {
+.title-text p {
     font-size: 16pt;
     text-transform: capitalize;
     line-height: 25px;
@@ -119,7 +117,7 @@ li a:hover {
     padding: 15px 0;
 }
 
-.banner-main .title-text a {
+.title-text a {
     padding: 15px 20px;
     color: black;
     background-color: #f19f1c;
@@ -131,7 +129,7 @@ li a:hover {
     font-size: 20px;
 }
 
-.banner-main .title-text a:hover {
+.title-text a:hover {
     background-color: #f5ab35;
 }
 
