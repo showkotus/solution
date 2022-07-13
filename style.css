@@ -1,0 +1,138 @@
+/*@import url(//db.onlinewebfonts.com/c/2aa1694b8b55e93ebe3c8b8317b4eae9?family=Aachen+BT);*/
+
+/* font-family: "Aachen BT"; src: url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.eot"); src: url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.woff") format("woff"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.svg#Aachen BT") format("svg"); */
+@font-face {
+    font-family: 'aachen-bt-roman', sans-serif;
+    src: url(https://www.dafontfree.net/embed/YWFjaGVuLWJ0LXJvbWFuJmRhdGEvMjIvYS8xMDk4NDkvYWFjaGVubi50dGY);
+}
+
+* {}
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'aachen-bt-roman', sans-serif;
+}
+
+
+
+/* top banner style started */
+.top-banner {
+    background-image: url(./images/main-bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(15, 15, 15, 0.9);
+}
+
+header {
+    padding: 40px 80px;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.first-part {
+    width: 47%;
+    padding-top: 40px;
+    text-align: left;
+}
+
+.logo {
+    width: 5%;
+    text-align: center;
+}
+
+.second-part {
+    width: 45%;
+    padding-top: 40px;
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+}
+
+li a:hover {
+    color: #e9a438;
+    transition: 0.3s;
+}
+
+/* header ended */
+/* banner main started */
+.banner-main {
+    display: flex;
+    padding: 55px 50px;
+}
+
+.banner-main .banner-img {
+    width: 50%;
+}
+
+.banner-main .banner-img img {
+    width: 100%;
+}
+
+.banner-main .title-text {
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 90px;
+    color: white;
+}
+
+.banner-main .title-text h1 {
+    font-size: 40pt;
+    text-transform: capitalize;
+    line-height: 70px;
+    font-family: "Aachen BT";
+    src: url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.eot");
+}
+
+.banner-main .title-text p {
+    font-size: 16pt;
+    text-transform: capitalize;
+    line-height: 25px;
+    margin-right: 200px;
+    padding: 15px 0;
+}
+
+.banner-main .title-text a {
+    padding: 15px 20px;
+    color: black;
+    background-color: #f19f1c;
+    text-decoration: none;
+    display: block;
+    width: 190px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.banner-main .title-text a:hover {
+    background-color: #f5ab35;
+}
+
+/* banner main ended */
