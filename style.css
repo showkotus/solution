@@ -2,8 +2,8 @@
 
 /* font-family: "Aachen BT"; src: url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.eot"); src: url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.woff") format("woff"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2aa1694b8b55e93ebe3c8b8317b4eae9.svg#Aachen BT") format("svg"); */
 @font-face {
-    font-family: 'aachen-bt-roman', sans-serif;
-    src: url(https://www.dafontfree.net/embed/YWFjaGVuLWJ0LXJvbWFuJmRhdGEvMjIvYS8xMDk4NDkvYWFjaGVubi50dGY);
+    font-family: 'aachen-bt-bold', sans-serif;
+    src: url(https://www.dafontfree.net/embed/YWFjaGVuLWJ0LWJvbGQmZGF0YS8yMi9hLzEwOTg1MC9hYWNoZW5iLnR0Zg);
 }
 
 
@@ -13,7 +13,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'aachen-bt-roman', sans-serif;
+    font-family: 'aachen-bt-bold', sans-serif;
 }
 
 
